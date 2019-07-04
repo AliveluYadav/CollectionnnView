@@ -15,6 +15,8 @@
 		D6E1233F21CB4B8C007B9987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E1233D21CB4B8C007B9987 /* LaunchScreen.storyboard */; };
 		D6E1234A21CB4B8C007B9987 /* CollectionnnViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E1234921CB4B8C007B9987 /* CollectionnnViewTests.swift */; };
 		D6E1235521CB4B8C007B9987 /* CollectionnnViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E1235421CB4B8C007B9987 /* CollectionnnViewUITests.swift */; };
+		D6E1236321CB4D65007B9987 /* CollectionViewCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E1236221CB4D65007B9987 /* CollectionViewCelll.swift */; };
+		D6E1236521CB5039007B9987 /* flowers.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6E1236421CB5039007B9987 /* flowers.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D6E1235021CB4B8C007B9987 /* CollectionnnViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionnnViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E1235421CB4B8C007B9987 /* CollectionnnViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionnnViewUITests.swift; sourceTree = "<group>"; };
 		D6E1235621CB4B8C007B9987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E1236221CB4D65007B9987 /* CollectionViewCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCelll.swift; sourceTree = "<group>"; };
+		D6E1236421CB5039007B9987 /* flowers.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowers.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		D6E1232521CB4B89007B9987 = {
 			isa = PBXGroup;
 			children = (
+				D6E1236221CB4D65007B9987 /* CollectionViewCelll.swift */,
 				D6E1233021CB4B89007B9987 /* CollectionnnView */,
 				D6E1234821CB4B8C007B9987 /* CollectionnnViewTests */,
 				D6E1235321CB4B8C007B9987 /* CollectionnnViewUITests */,
@@ -103,6 +108,7 @@
 				D6E1233321CB4B89007B9987 /* ViewController.swift */,
 				D6E1233521CB4B89007B9987 /* Main.storyboard */,
 				D6E1233B21CB4B8C007B9987 /* Assets.xcassets */,
+				D6E1236421CB5039007B9987 /* flowers.jpeg */,
 				D6E1233D21CB4B8C007B9987 /* LaunchScreen.storyboard */,
 				D6E1234021CB4B8C007B9987 /* Info.plist */,
 				D6E1233821CB4B89007B9987 /* CollectionnnView.xcdatamodeld */,
@@ -234,6 +240,7 @@
 			files = (
 				D6E1233F21CB4B8C007B9987 /* LaunchScreen.storyboard in Resources */,
 				D6E1233C21CB4B8C007B9987 /* Assets.xcassets in Resources */,
+				D6E1236521CB5039007B9987 /* flowers.jpeg in Resources */,
 				D6E1233721CB4B89007B9987 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 				D6E1233421CB4B89007B9987 /* ViewController.swift in Sources */,
 				D6E1233A21CB4B89007B9987 /* CollectionnnView.xcdatamodeld in Sources */,
 				D6E1233221CB4B89007B9987 /* AppDelegate.swift in Sources */,
+				D6E1236321CB4D65007B9987 /* CollectionViewCelll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
